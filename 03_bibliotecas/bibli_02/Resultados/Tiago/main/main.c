@@ -15,7 +15,7 @@ int main() {
 
     while(1) {
 
-        printf("1 - Somar Matrizes\n");
+        printf("1 - Somar matrizes\n");
         printf("2 - Subtrair matrizes\n");
         printf("3 - Multiplicar matrizes\n");
         printf("4 - Multiplicacao de uma matriz por escalar\n");
@@ -32,7 +32,7 @@ int main() {
                     matrix_add(linhas1, colunas1, matriz1, linhas2, colunas2, matriz2, resultado);
                     matrix_print(linhas1, colunas1, resultado);
                 } else {
-                    printf("Erro: as dimensoes da matriz nao correspondem\n");
+                    printf("Erro: as dimensoes da matriz nao correspondem\n\n");
                 }
 
             } else if (opcao == 2) {
@@ -42,7 +42,7 @@ int main() {
                     matrix_sub(linhas1, colunas1, matriz1, linhas2, colunas2, matriz2, resultado);
                     matrix_print(linhas1, colunas1, resultado);
                 } else {
-                    printf("Erro: as dimensoes da matriz nao correspondem\n");
+                    printf("Erro: as dimensoes da matriz nao correspondem\n\n");
                 }
 
             } else if (opcao == 3) {
@@ -52,7 +52,7 @@ int main() {
                     matrix_multiply(linhas1, colunas1, matriz1, linhas2, colunas2, matriz2, resultado);
                     matrix_print(linhas1, colunas2, resultado);
                 } else {
-                    printf("Erro: as dimensoes da matriz nao correspondem\n");
+                    printf("Erro: o numero de colunas da primeira matriz eh diferente do numero de linhas da segunda matriz\n\n");
                 }
 
             } else if (opcao == 4) {
@@ -74,9 +74,8 @@ int main() {
                 transpose_matrix(linhas1, colunas1, matriz1, resultado1);
                 transpose_matrix(linhas2, colunas2, matriz2, resultado2);
 
-                matrix_print(linhas1, colunas1, matriz1);
-                printf("\n");
-                matrix_print(linhas2, colunas2, matriz2);
+                matrix_print(colunas1, linhas1, resultado1);
+                matrix_print(colunas2, linhas2, resultado2);
 
             } else if (opcao == 6) {
                 break;       

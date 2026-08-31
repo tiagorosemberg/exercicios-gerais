@@ -93,10 +93,10 @@ void matrix_multiply(int rows1, int cols1, int matrix1[rows1][cols1], int rows2,
     }
 
     for (i = 0; i < rows1; i++) {
-        for (j = 0; j < cols1; j++) {
+        for (j = 0; j < cols2; j++) {
         
-            for (k = 0; k < cols1; k++) {
-                result[i][j] = matrix1[i][k] * matrix2[k][j];
+            for (k = 0; k < rows2; k++) {
+                result[i][j] += matrix1[i][k] * matrix2[k][j];
             }
         }
     }
@@ -107,8 +107,8 @@ void transpose_matrix(int rows, int cols, int matrix[rows][cols], int result[col
 
     int i, j;
 
-    for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
+    for (i = 0; i < cols; i++) {
+        for (j = 0; j < rows; j++) {
             
             result[i][j] = matrix[j][i];
         }
