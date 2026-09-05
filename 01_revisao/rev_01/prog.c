@@ -2,7 +2,15 @@
 
 int main() {
 
-    printf("Hello World!");
+    int numero;
+
+    scanf(" %d", &numero);
+
+    if (numero == 67) {
+        printf("farmou aura");
+    } else {
+        printf("moggado");
+    }
 
     return 0;
 }
