@@ -1,0 +1,7 @@
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:77:30: warning: variable ‘id_vencedor’ set but not used [-Wunused-but-set-variable]
+   77 |     int i, j, id, maior = 0, id_vencedor;
+      |                              ^~~~~~~~~~~
+eleicao.c:77:15: warning: unused variable ‘id’ [-Wunused-variable]
+   77 |     int i, j, id, maior = 0, id_vencedor;
+      |               ^~

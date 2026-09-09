@@ -1,0 +1,100 @@
+==263307== Memcheck, a memory error detector
+==263307== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==263307== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==263307== Command: Resultados/Tiago/eleicao/prog Resultados/Tiago/eleicao/Casos/7
+==263307== Parent PID: 263306
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x4001B9C: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x4001BF7: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x485A169: strlen (vg_replace_strmem.c:506)
+==263307==    by 0x48E8BC7: __printf_buffer (vfprintf-process-arg.c:443)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Use of uninitialised value of size 8
+==263307==    at 0x48DC2E2: _itoa_word (_fitoa_word.c:38)
+==263307==    by 0x48E789C: __printf_buffer (vfprintf-process-arg.c:155)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48DC2E9: _itoa_word (_fitoa_word.c:38)
+==263307==    by 0x48E789C: __printf_buffer (vfprintf-process-arg.c:155)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48E822A: __printf_buffer (vfprintf-process-arg.c:186)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48E8548: __printf_buffer (vfprintf-process-arg.c:208)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48DE3C1: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==263307==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263307==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263307==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48DE3DB: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==263307==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263307==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263307==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== Conditional jump or move depends on uninitialised value(s)
+==263307==    at 0x48DE300: __printf_fp_buffer_1.isra.0 (printf_fp.c:238)
+==263307==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263307==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263307==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263307==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263307==    by 0x48DD3B2: printf (printf.c:33)
+==263307==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263307== 
+==263307== 
+==263307== HEAP SUMMARY:
+==263307==     in use at exit: 0 bytes in 0 blocks
+==263307==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==263307== 
+==263307== All heap blocks were freed -- no leaks are possible
+==263307== 
+==263307== Use --track-origins=yes to see where uninitialised values come from
+==263307== For lists of detected and suppressed errors, rerun with: -s
+==263307== ERROR SUMMARY: 15 errors from 10 contexts (suppressed: 0 from 0)
