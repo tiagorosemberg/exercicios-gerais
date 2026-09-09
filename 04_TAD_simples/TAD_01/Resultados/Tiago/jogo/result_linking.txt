@@ -1,0 +1,5 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Tiago/jogo/main.o: na função "main":
+main.c:(.text+0x28): referência não definida para "CriaJogo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x4d): referência não definida para "ComecaJogo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x5b): referência não definida para "ContinuaJogo"
+collect2: error: ld returned 1 exit status

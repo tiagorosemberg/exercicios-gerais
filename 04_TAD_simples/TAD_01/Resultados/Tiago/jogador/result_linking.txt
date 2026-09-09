@@ -1,0 +1,9 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Tiago/jogador/jogo.o: na função "CriaJogo":
+jogo.c:(.text+0x3e): referência não definida para "CriaJogador"
+/usr/bin/x86_64-linux-gnu-ld.bfd: jogo.c:(.text+0x4b): referência não definida para "CriaJogador"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Tiago/jogador/jogo.o: na função "ComecaJogo":
+jogo.c:(.text+0xaf): referência não definida para "JogaJogador"
+/usr/bin/x86_64-linux-gnu-ld.bfd: jogo.c:(.text+0xd2): referência não definida para "VenceuJogador"
+/usr/bin/x86_64-linux-gnu-ld.bfd: jogo.c:(.text+0x135): referência não definida para "JogaJogador"
+/usr/bin/x86_64-linux-gnu-ld.bfd: jogo.c:(.text+0x158): referência não definida para "VenceuJogador"
+collect2: error: ld returned 1 exit status

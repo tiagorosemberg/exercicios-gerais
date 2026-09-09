@@ -1,27 +1,19 @@
-#include <stdio.h>
-#include "jogada.h"
-#include "tabuleiro.h"
+#ifndef _JOGADA_H
+#define _JOGADA_H
+
+
+typedef struct{
+    int x;
+    int y;
+    int sucesso;
+} tJogada;
 
 /**
  * Lê uma jogada e retorna uma estrutura do tipo tJogada e define o valor da variavel sucesso.
  * Se a jogada foi lida com sucesso, ou seja, foi lido um valor para x e outro para y, sucesso = 1, caso contrário, sucesso = 0.
  * @return a jogada lida.
  */
-tJogada LeJogada() {
-
-    tJogada jogada;
-    
-    printf("Digite uma posicao (x e y):\n");
-
-    if (scanf(" %d %d", &jogada.x, &jogada.y) == 2) {
-        jogada.sucesso = 1;
-
-    } else {
-        jogada.sucesso = 0;
-    }
-
-    return jogada;
-}
+tJogada LeJogada();
 
 
 /**
@@ -31,9 +23,7 @@ tJogada LeJogada() {
  * 
  * @return a coordenada X da jogada.
  */
-int ObtemJogadaX(tJogada jogada) {
-    return jogada.x;
-}
+int ObtemJogadaX(tJogada jogada);
 
 
 /**
@@ -43,9 +33,7 @@ int ObtemJogadaX(tJogada jogada) {
  * 
  * @return a coordenada Y da jogada.
  */
-int ObtemJogadaY(tJogada jogada) {
-    return jogada.y;
-}
+int ObtemJogadaY(tJogada jogada);
 
 
 /**
@@ -55,12 +43,6 @@ int ObtemJogadaY(tJogada jogada) {
  * 
  * @return 1 se a jogada foi bem sucedida, 0 caso contrário.
  */
-int FoiJogadaBemSucedida(tJogada jogada) {
+int FoiJogadaBemSucedida(tJogada jogada);
 
-    if (EhPosicaoValidaTabuleiro(jogada.x, jogada.y)) {
-        return 1;
-    } else {
-        printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n", jogada.x, jogada.y);
-        return 0;
-    }
-}
+#endif
