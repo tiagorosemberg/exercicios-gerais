@@ -1,0 +1,133 @@
+==263756== Memcheck, a memory error detector
+==263756== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==263756== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==263756== Command: Resultados/Tiago/eleicao/prog Resultados/Tiago/eleicao/Casos/8
+==263756== Parent PID: 263755
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x4001B9C: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x4001BF7: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x485A169: strlen (vg_replace_strmem.c:506)
+==263756==    by 0x48E8BC7: __printf_buffer (vfprintf-process-arg.c:443)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x485A178: strlen (vg_replace_strmem.c:506)
+==263756==    by 0x48E8BC7: __printf_buffer (vfprintf-process-arg.c:443)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Use of uninitialised value of size 8
+==263756==    at 0x48DC2E2: _itoa_word (_fitoa_word.c:38)
+==263756==    by 0x48E789C: __printf_buffer (vfprintf-process-arg.c:155)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48DC2E9: _itoa_word (_fitoa_word.c:38)
+==263756==    by 0x48E789C: __printf_buffer (vfprintf-process-arg.c:155)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48E822A: __printf_buffer (vfprintf-process-arg.c:186)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48E8548: __printf_buffer (vfprintf-process-arg.c:208)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48DE3C1: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==263756==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263756==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263756==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48DE3DB: __printf_fp_buffer_1.isra.0 (printf_fp.c:230)
+==263756==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263756==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263756==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Conditional jump or move depends on uninitialised value(s)
+==263756==    at 0x48DE300: __printf_fp_buffer_1.isra.0 (printf_fp.c:238)
+==263756==    by 0x48E07F2: __printf_fp_l_buffer (printf_fp.c:1122)
+==263756==    by 0x48E85BC: __printf_fp_spec (vfprintf-internal.c:266)
+==263756==    by 0x48E85BC: __printf_buffer (vfprintf-internal.c:998)
+==263756==    by 0x48E99E7: __vfprintf_internal (vfprintf-internal.c:1548)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x40014F8: ImprimeCandidato (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001D70: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== Syscall param write(buf) points to uninitialised byte(s)
+==263756==    at 0x49A1DED: write (write.c:26)
+==263756==    by 0x4914384: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1241)
+==263756==    by 0x4912E2F: new_do_write (fileops.c:483)
+==263756==    by 0x4912E2F: _IO_do_write@@GLIBC_2.2.5 (fileops.c:460)
+==263756==    by 0x4917094: _IO_flush_all (genops.c:732)
+==263756==    by 0x4917616: _IO_cleanup (genops.c:883)
+==263756==    by 0x48C1663: __run_exit_handlers (exit.c:139)
+==263756==    by 0x48C16BD: exit (exit.c:148)
+==263756==    by 0x48A3607: (below main) (libc_start_call_main.h:83)
+==263756==  Address 0x4a9e095 is 21 bytes inside a block of size 4,096 alloc'd
+==263756==    at 0x4850858: malloc (vg_replace_malloc.c:447)
+==263756==    by 0x4904C8B: _IO_file_doallocate (filedoalloc.c:91)
+==263756==    by 0x4916205: _IO_doallocbuf (genops.c:373)
+==263756==    by 0x49138B8: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:779)
+==263756==    by 0x49144B2: _IO_new_file_xsputn (fileops.c:1305)
+==263756==    by 0x49144B2: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1258)
+==263756==    by 0x48DDF0D: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+==263756==    by 0x48DDF0D: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+==263756==    by 0x48E99F3: __vfprintf_internal (vfprintf-internal.c:1549)
+==263756==    by 0x48DD3B2: printf (printf.c:33)
+==263756==    by 0x4001C25: ImprimeResultadoEleicao (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756==    by 0x4001FAB: main (in /home/tiago-rb/programação/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Tiago/eleicao/prog)
+==263756== 
+==263756== 
+==263756== HEAP SUMMARY:
+==263756==     in use at exit: 0 bytes in 0 blocks
+==263756==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==263756== 
+==263756== All heap blocks were freed -- no leaks are possible
+==263756== 
+==263756== Use --track-origins=yes to see where uninitialised values come from
+==263756== For lists of detected and suppressed errors, rerun with: -s
+==263756== ERROR SUMMARY: 16 errors from 12 contexts (suppressed: 0 from 0)
