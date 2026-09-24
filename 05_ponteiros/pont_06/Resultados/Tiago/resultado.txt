@@ -1,17 +1,17 @@
 Arquivos Esperados Corretos: 3 de 3
-Pastas Compiladas Corretamente: 1 de 3 
-Pastas Linkadas Corretamente: 0 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
 Teste main
-  - Resultados corretos: 0 de 4
-  - Valgrinds corretos: 0 de 4
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
 Nota de Tiago para o teste main: 
 Teste completo
-  - Resultados corretos: 0 de 4
-  - Valgrinds corretos: 0 de 4
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
 Nota de Tiago para o teste completo: 
 Teste data
-  - Resultados corretos: 0 de 4
-  - Valgrinds corretos: 0 de 4
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
 Nota de Tiago para o teste data: 
 Nota de Tiago: 0+()+()+()
 Nota de Tiago: 

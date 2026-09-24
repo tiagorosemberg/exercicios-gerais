@@ -30,12 +30,15 @@ void LeData( tData *data ) {
 
     scanf(" %d %d %d", &data->dia, &data->mes, &data->ano);
 
-    if (data->dia > 31) {
-        data->dia = 31;
-    }
+    if (data->mes < 1) data->mes = 1;
+    if (data->mes > 12) data->mes = 12;
 
-    if (data->mes > 12) {
-        data->mes = 12;
+    int maxDias = InformaQtdDiasNoMes(data);
+    if (data->dia > maxDias) {
+        data->dia = maxDias;
+    }
+    if (data->dia < 1) {
+        data->dia = 1;
     }
 }
 
@@ -48,7 +51,7 @@ void LeData( tData *data ) {
  */
 void ImprimeData( tData *data ) {
 
-    printf("'%d/%d/%d'", data->dia, data->mes, data->ano);
+    printf("'%02d/%02d/%d'", data->dia, data->mes, data->ano);
 }
 
 /**
@@ -66,7 +69,11 @@ int EhBissexto( tData *data ) {
             if (data->ano % 400 == 0) {
                 return 1;
             }
+
+            return 0;
         }
+
+        return 1;
     }
 
     return 0;
@@ -101,7 +108,23 @@ int InformaQtdDiasNoMes( tData *data ) {
  * 
  * @param data Ponteiro para a estrutura tData que será avançada.
  */
-void AvancaParaDiaSeguinte( tData *data );
+void AvancaParaDiaSeguinte( tData *data ) {
+
+    data->dia++;
+
+    if (data->dia > InformaQtdDiasNoMes(data)) {
+        data->dia = 1;
+
+        data->mes++;
+        
+        if (data->mes > 12) {
+            
+            data->mes = 1;
+
+            data->ano++;
+        }
+    }
+}
 
 /**
  * @brief Verifica se duas datas são iguais.
@@ -112,4 +135,11 @@ void AvancaParaDiaSeguinte( tData *data );
  * @param data2 Ponteiro para a segunda estrutura tData que será comparada.
  * @return 1 se as datas são iguais, 0 caso contrário.
  */
-int EhIgual( tData *data1, tData *data2 );	
+int EhIgual( tData *data1, tData *data2 ) {
+
+    if (data1->dia == data2->dia && data1->mes == data2->mes && data1->ano == data2->ano) {
+        return 1;
+    }
+
+    return 0;
+}
