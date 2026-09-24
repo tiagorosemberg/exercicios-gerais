@@ -1,0 +1,4 @@
+/usr/bin/ld: Resultados/Tiago/data/main.o: in function `main':
+main.c:(.text+0x61): undefined reference to `AvancaParaDiaSeguinte'
+/usr/bin/ld: main.c:(.text+0x74): undefined reference to `EhIgual'
+collect2: error: ld returned 1 exit status

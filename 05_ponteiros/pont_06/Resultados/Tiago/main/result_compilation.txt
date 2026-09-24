@@ -1,0 +1,26 @@
+main.c: In function ‘main’:
+main.c:16:20: error: incompatible type for argument 1 of ‘EhIgual’
+   16 |     while(!EhIgual(data, dataFim) ){
+      |                    ^~~~
+      |                    |
+      |                    tData {aka struct Data}
+In file included from main.c:3:
+data.h:79:21: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘tData’ {aka ‘struct Data’}
+   79 | int EhIgual( tData *data1, tData *data2 );
+      |              ~~~~~~~^~~~~
+main.c:16:26: error: incompatible type for argument 2 of ‘EhIgual’
+   16 |     while(!EhIgual(data, dataFim) ){
+      |                          ^~~~~~~
+      |                          |
+      |                          tData {aka struct Data}
+data.h:79:35: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘tData’ {aka ‘struct Data’}
+   79 | int EhIgual( tData *data1, tData *data2 );
+      |                            ~~~~~~~^~~~~
+main.c:18:21: error: incompatible type for argument 1 of ‘ImprimeData’
+   18 |         ImprimeData(data);
+      |                     ^~~~
+      |                     |
+      |                     tData {aka struct Data}
+data.h:39:26: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘tData’ {aka ‘struct Data’}
+   39 | void ImprimeData( tData *data );
+      |                   ~~~~~~~^~~~

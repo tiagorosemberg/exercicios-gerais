@@ -1,5 +1,12 @@
-#include <stdio.h>
-#include "data.h"
+#ifndef DATA_H
+#define	DATA_H
+
+
+typedef struct Data {
+    int dia;
+    int mes; 
+    int ano; 
+} tData;
 
 /**
  * @brief Inicializa uma data com os valores passados como parâmetro.
@@ -11,13 +18,7 @@
  * @param ano Ano da data.
  * @param data Ponteiro para a estrutura tData que será inicializada.
  */
-void InicializaDataParam( int dia, int mes, int ano, tData *data) {
-
-    data->dia = dia;
-    data->mes = mes;
-    data->ano = ano;
-
-}
+void InicializaDataParam( int dia, int mes, int ano, tData *data);
 
 /**
  * @brief Lê uma data do usuário.
@@ -26,18 +27,7 @@ void InicializaDataParam( int dia, int mes, int ano, tData *data) {
  * 
  * @param data Ponteiro para a estrutura tData que será preenchida com os valores lidos.
  */
-void LeData( tData *data ) {
-
-    scanf(" %d %d %d", &data->dia, &data->mes, &data->ano);
-
-    if (data->dia > 31) {
-        data->dia = 31;
-    }
-
-    if (data->mes > 12) {
-        data->mes = 12;
-    }
-}
+void LeData( tData *data );
 
 /**
  * @brief Imprime uma data na tela.
@@ -46,10 +36,7 @@ void LeData( tData *data ) {
  * 
  * @param data Ponteiro para a estrutura tData que será impressa.
  */
-void ImprimeData( tData *data ) {
-
-    printf("'%d/%d/%d'", data->dia, data->mes, data->ano);
-}
+void ImprimeData( tData *data );
 
 /**
  * @brief Verifica se um ano é bissexto.
@@ -59,18 +46,7 @@ void ImprimeData( tData *data ) {
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return 1 se o ano é bissexto, 0 caso contrário.
  */
-int EhBissexto( tData *data ) {
-
-    if (data->ano % 4 == 0) {
-        if(data->ano % 100 == 0) {
-            if (data->ano % 400 == 0) {
-                return 1;
-            }
-        }
-    }
-
-    return 0;
-}
+int EhBissexto( tData *data );
 
 /**
  * @brief Informa a quantidade de dias no mês de uma data.
@@ -80,19 +56,7 @@ int EhBissexto( tData *data ) {
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return Quantidade de dias no mês correspondente.
  */
-int InformaQtdDiasNoMes( tData *data ) {
-    if (data->mes == 1 || data->mes == 3 || data->mes == 5 || data->mes == 7 || data->mes == 8 || data->mes == 10 || data->mes == 12) {
-        return 31;
-    } else if (data->mes == 4 || data->mes == 6 || data->mes == 9 || data->mes == 11) {
-        return 30;
-    } else {
-        if (EhBissexto(data)) {
-            return 29;
-        } else {
-            return 28;
-        }
-    }
-}
+int InformaQtdDiasNoMes( tData *data );
 
 /**
  * @brief Avança uma data para o dia seguinte.
@@ -112,4 +76,6 @@ void AvancaParaDiaSeguinte( tData *data );
  * @param data2 Ponteiro para a segunda estrutura tData que será comparada.
  * @return 1 se as datas são iguais, 0 caso contrário.
  */
-int EhIgual( tData *data1, tData *data2 );	
+int EhIgual( tData *data1, tData *data2 );
+
+#endif	
