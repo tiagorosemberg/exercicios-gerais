@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 #include "evento.h"
 
 /**
@@ -8,11 +10,22 @@
  */
 void cadastrarEvento(Evento* eventos, int* numEventos) {
 
-    scanf(" %[ˆ\n]", eventos[*numEventos].nome);
-    scanf(" %d %d %d", &eventos[*numEventos].dia, &eventos[*numEventos].mes, &eventos[*numEventos].ano);
+    if (*numEventos >= MAX_EVENTOS) {
 
-    printf("Evento cadastrado com sucesso!");
+        printf("Limite de eventos atingido!\n");
+
+    } else {
+
+        scanf(" %[^\n]", eventos[*numEventos].nome);
+        scanf(" %d %d %d", &eventos[*numEventos].dia, &eventos[*numEventos].mes, &eventos[*numEventos].ano);
+
+        (*numEventos)++;
+        
+        printf("Evento cadastrado com sucesso!\n");
+    }
 }
+
+
 
 /**
  * Exibe todos os eventos cadastrados no calendário.
@@ -20,15 +33,21 @@ void cadastrarEvento(Evento* eventos, int* numEventos) {
  * @param eventos Array de eventos a serem exibidos.
  * @param numEventos Ponteiro para o número total de eventos cadastrados.
  */
-void exibirEventos(Evento* eventos, int* numEventos) {
+void exibirEventos(Evento *eventos, int* numEventos) {
 
     int i;
 
-    printf("Eventos cadastrados:\n");
+    if (numEventos == 0) {
+        printf("Nenhum evento cadastrado.\n"); 
+    
+    } else {
 
-    for (i = 0; i < *numEventos; i++) {
+        printf("Eventos cadastrados:\n");
 
-        printf("%d - %s - %d/%d/%d\n", i, eventos[i].nome, eventos[i].dia, eventos[i].mes, eventos[i].ano);
+        for (i = 0; i < *numEventos; i++) {
+
+            printf("%d - %s - %d/%d/%d\n", i, eventos[i].nome, eventos[i].dia, eventos[i].mes, eventos[i].ano);
+        }
     }
 }
 
@@ -42,8 +61,16 @@ void trocarDataEvento(Evento* eventos, int* numEventos) {
 
     int idx;
 
-    scanf(" %d %d %d", &eventos[idx].dia, &eventos[idx].mes, &eventos[idx].ano);
+    scanf(" %d", &idx);
 
+    if (idx >= *numEventos) {
+        printf("Indice invalido!\n");
+    } else {
+
+        scanf(" %d %d %d", &eventos[idx].dia, &eventos[idx].mes, &eventos[idx].ano);
+
+        printf("Data modificada com sucesso!\n");
+    }
 }
 
 /**
@@ -58,7 +85,14 @@ void trocarIndicesEventos(Evento* eventos, int* indiceA, int* indiceB, int* numE
 
     Evento aux;
 
-    aux = eventos[*indiceA];
-    eventos[*indiceA] = eventos[*indiceB];
-    eventos[*indiceB] = aux;
+    if (*indiceA >= *numEventos || *indiceB >= *numEventos) {
+        printf("Indices invalidos!\n");
+    
+    } else {
+        aux = eventos[*indiceA];
+        eventos[*indiceA] = eventos[*indiceB];
+        eventos[*indiceB] = aux;
+
+        printf("Eventos trocados com sucesso!\n");
+    }
 }

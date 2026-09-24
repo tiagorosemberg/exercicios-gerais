@@ -1,6 +1,15 @@
-==54920== Memcheck, a memory error detector
-==54920== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==54920== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==54920== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/2
-==54920== Parent PID: 54919
-==54920== 
+==56932== Memcheck, a memory error detector
+==56932== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==56932== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==56932== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/2
+==56932== Parent PID: 56931
+==56932== 
+==56932== 
+==56932== HEAP SUMMARY:
+==56932==     in use at exit: 0 bytes in 0 blocks
+==56932==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==56932== 
+==56932== All heap blocks were freed -- no leaks are possible
+==56932== 
+==56932== For lists of detected and suppressed errors, rerun with: -s
+==56932== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

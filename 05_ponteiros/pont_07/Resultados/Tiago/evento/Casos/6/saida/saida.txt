@@ -5,7 +5,7 @@
 3 - Trocar data de um evento
 4 - Trocar a posicao entre dois eventos
 5 - Sair
-Nenhum evento cadastrado.
+Eventos cadastrados:
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!

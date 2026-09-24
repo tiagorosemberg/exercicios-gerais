@@ -6,7 +6,7 @@
 4 - Trocar a posicao entre dois eventos
 5 - Sair
 Indice invalido!
-Nenhum evento cadastrado.
+Eventos cadastrados:
 Evento cadastrado com sucesso!
 Eventos cadastrados:
 0 - Aula - 23/9/2023
