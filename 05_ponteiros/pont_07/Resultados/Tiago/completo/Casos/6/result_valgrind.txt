@@ -1,0 +1,6 @@
+==55506== Memcheck, a memory error detector
+==55506== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==55506== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==55506== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/6
+==55506== Parent PID: 55505
+==55506== 

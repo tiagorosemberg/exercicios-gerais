@@ -1,0 +1,6 @@
+==55067== Memcheck, a memory error detector
+==55067== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==55067== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==55067== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/3
+==55067== Parent PID: 55066
+==55067== 
