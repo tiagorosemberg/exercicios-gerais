@@ -1,145 +1,46 @@
-==21095== Memcheck, a memory error detector
-==21095== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==21095== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==21095== Command: Resultados/Tiago/pessoa/prog Resultados/Tiago/pessoa/Casos/2
-==21095== Parent PID: 21094
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x1096E6: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x109724: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x10972E: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x10976C: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x1095C5: VerificaSeTemPaisPessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x1095FD: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x10962C: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x48CA5C0: __printf_buffer (vfprintf-process-arg.c:408)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48CBDA7: __printf_buffer (vfprintf-process-arg.c:435)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48CBDA7: __printf_buffer (vfprintf-process-arg.c:435)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x4852D7E: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48C1D87: memcpy (string_fortified.h:29)
-==21095==    by 0x48C1D87: __printf_buffer_write (Xprintf_buffer_write.c:39)
-==21095==    by 0x48CA51B: __printf_buffer (vfprintf-process-arg.c:501)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x4852EE0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48C1D87: memcpy (string_fortified.h:29)
-==21095==    by 0x48C1D87: __printf_buffer_write (Xprintf_buffer_write.c:39)
-==21095==    by 0x48CA51B: __printf_buffer (vfprintf-process-arg.c:501)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Use of uninitialised value of size 8
-==21095==    at 0x4852EE3: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48C1D87: memcpy (string_fortified.h:29)
-==21095==    by 0x48C1D87: __printf_buffer_write (Xprintf_buffer_write.c:39)
-==21095==    by 0x48CA51B: __printf_buffer (vfprintf-process-arg.c:501)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x4852EED: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48C1D87: memcpy (string_fortified.h:29)
-==21095==    by 0x48C1D87: __printf_buffer_write (Xprintf_buffer_write.c:39)
-==21095==    by 0x48CA51B: __printf_buffer (vfprintf-process-arg.c:501)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10965D: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x109669: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Conditional jump or move depends on uninitialised value(s)
-==21095==    at 0x48CA5C0: __printf_buffer (vfprintf-process-arg.c:408)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10969A: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095== 
-==21095== Invalid read of size 1
-==21095==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48CBDA7: __printf_buffer (vfprintf-process-arg.c:435)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10969A: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==  Address 0x1f86f33c40 is not stack'd, malloc'd or (recently) free'd
-==21095== 
-==21095== 
-==21095== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-==21095==  Access not within mapped region at address 0x1F86F33C40
-==21095==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==21095==    by 0x48CBDA7: __printf_buffer (vfprintf-process-arg.c:435)
-==21095==    by 0x48CC73A: __vfprintf_internal (vfprintf-internal.c:1544)
-==21095==    by 0x48C11B2: printf (printf.c:33)
-==21095==    by 0x10969A: ImprimePessoa (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==    by 0x109459: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==21095==  If you believe this happened as a result of a stack
-==21095==  overflow in your program's main thread (unlikely but
-==21095==  possible), you can try to increase the size of the
-==21095==  main thread stack using the --main-stacksize= flag.
-==21095==  The main thread stack size used in this run was 8388608.
-==21095== 
-==21095== HEAP SUMMARY:
-==21095==     in use at exit: 8,192 bytes in 2 blocks
-==21095==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==21095== 
-==21095== LEAK SUMMARY:
-==21095==    definitely lost: 0 bytes in 0 blocks
-==21095==    indirectly lost: 0 bytes in 0 blocks
-==21095==      possibly lost: 0 bytes in 0 blocks
-==21095==    still reachable: 8,192 bytes in 2 blocks
-==21095==         suppressed: 0 bytes in 0 blocks
-==21095== Reachable blocks (those to which a pointer was found) are not shown.
-==21095== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==21095== 
-==21095== Use --track-origins=yes to see where uninitialised values come from
-==21095== For lists of detected and suppressed errors, rerun with: -s
-==21095== ERROR SUMMARY: 17 errors from 16 contexts (suppressed: 0 from 0)
+==75749== Memcheck, a memory error detector
+==75749== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==75749== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==75749== Command: Resultados/Tiago/pessoa/prog Resultados/Tiago/pessoa/Casos/2
+==75749== Parent PID: 75748
+==75749== 
+==75749== Conditional jump or move depends on uninitialised value(s)
+==75749==    at 0x1097C6: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749== 
+==75749== Use of uninitialised value of size 8
+==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749== 
+==75749== Invalid write of size 8
+==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==  Address 0x28d8b78360 is not stack'd, malloc'd or (recently) free'd
+==75749== 
+==75749== 
+==75749== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==75749==  Access not within mapped region at address 0x28D8B78360
+==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
+==75749==  If you believe this happened as a result of a stack
+==75749==  overflow in your program's main thread (unlikely but
+==75749==  possible), you can try to increase the size of the
+==75749==  main thread stack using the --main-stacksize= flag.
+==75749==  The main thread stack size used in this run was 8388608.
+==75749== 
+==75749== HEAP SUMMARY:
+==75749==     in use at exit: 8,192 bytes in 2 blocks
+==75749==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==75749== 
+==75749== LEAK SUMMARY:
+==75749==    definitely lost: 0 bytes in 0 blocks
+==75749==    indirectly lost: 0 bytes in 0 blocks
+==75749==      possibly lost: 0 bytes in 0 blocks
+==75749==    still reachable: 8,192 bytes in 2 blocks
+==75749==         suppressed: 0 bytes in 0 blocks
+==75749== Reachable blocks (those to which a pointer was found) are not shown.
+==75749== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==75749== 
+==75749== Use --track-origins=yes to see where uninitialised values come from
+==75749== For lists of detected and suppressed errors, rerun with: -s
+==75749== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

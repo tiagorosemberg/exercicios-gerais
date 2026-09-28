@@ -1,3 +1,1 @@
-NOME COMPLETO: 
-PAI: 
-MAE: 
+timeout: the monitored command dumped core

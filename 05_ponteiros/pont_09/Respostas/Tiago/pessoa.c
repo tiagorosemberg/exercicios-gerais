@@ -27,8 +27,11 @@ tPessoa CriaPessoa() {
  */
 void LePessoa(tPessoa *pessoa) {
 
-    scanf(" %[ˆ\n]\n", pessoa->nome);
+    *pessoa = CriaPessoa();
+    
+    if (scanf(" %[^\n]", pessoa->nome) != 1);
 
+    pessoa->mae = NULL
 }
 
 /**
@@ -86,7 +89,9 @@ void AssociaFamiliasGruposPessoas(tPessoa *pessoas) {
 
     int idx_filho, idx_mae, idx_pai;
 
-    scanf(" mae: %d, pai: %d, filho: %d\n", &idx_mae, &idx_pai, &idx_filho);
+    if(scanf(" mae: %d, pai: %d, filho: %d", &idx_mae, &idx_pai, &idx_filho) != 3) {
+        printf("nao conseguiu ler\n");
+    }
 
     if (idx_pai != -1) {
         pessoas[idx_filho].pai = &pessoas[idx_pai];
