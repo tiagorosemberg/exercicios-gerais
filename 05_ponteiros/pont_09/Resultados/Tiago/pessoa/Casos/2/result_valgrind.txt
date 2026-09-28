@@ -1,46 +1,15 @@
-==75749== Memcheck, a memory error detector
-==75749== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==75749== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==75749== Command: Resultados/Tiago/pessoa/prog Resultados/Tiago/pessoa/Casos/2
-==75749== Parent PID: 75748
-==75749== 
-==75749== Conditional jump or move depends on uninitialised value(s)
-==75749==    at 0x1097C6: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749== 
-==75749== Use of uninitialised value of size 8
-==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749== 
-==75749== Invalid write of size 8
-==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==  Address 0x28d8b78360 is not stack'd, malloc'd or (recently) free'd
-==75749== 
-==75749== 
-==75749== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-==75749==  Access not within mapped region at address 0x28D8B78360
-==75749==    at 0x109804: AssociaFamiliasGruposPessoas (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==    by 0x109424: main (in /workspaces/exercicios-gerais/05_ponteiros/pont_09/Resultados/Tiago/pessoa/prog)
-==75749==  If you believe this happened as a result of a stack
-==75749==  overflow in your program's main thread (unlikely but
-==75749==  possible), you can try to increase the size of the
-==75749==  main thread stack using the --main-stacksize= flag.
-==75749==  The main thread stack size used in this run was 8388608.
-==75749== 
-==75749== HEAP SUMMARY:
-==75749==     in use at exit: 8,192 bytes in 2 blocks
-==75749==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==75749== 
-==75749== LEAK SUMMARY:
-==75749==    definitely lost: 0 bytes in 0 blocks
-==75749==    indirectly lost: 0 bytes in 0 blocks
-==75749==      possibly lost: 0 bytes in 0 blocks
-==75749==    still reachable: 8,192 bytes in 2 blocks
-==75749==         suppressed: 0 bytes in 0 blocks
-==75749== Reachable blocks (those to which a pointer was found) are not shown.
-==75749== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==75749== 
-==75749== Use --track-origins=yes to see where uninitialised values come from
-==75749== For lists of detected and suppressed errors, rerun with: -s
-==75749== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==12605== Memcheck, a memory error detector
+==12605== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==12605== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==12605== Command: Resultados/Tiago/pessoa/prog Resultados/Tiago/pessoa/Casos/2
+==12605== Parent PID: 12604
+==12605== 
+==12605== 
+==12605== HEAP SUMMARY:
+==12605==     in use at exit: 0 bytes in 0 blocks
+==12605==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==12605== 
+==12605== All heap blocks were freed -- no leaks are possible
+==12605== 
+==12605== For lists of detected and suppressed errors, rerun with: -s
+==12605== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -30,8 +30,6 @@ void LePessoa(tPessoa *pessoa) {
     *pessoa = CriaPessoa();
     
     if (scanf(" %[^\n]", pessoa->nome) != 1);
-
-    pessoa->mae = NULL
 }
 
 /**
@@ -77,6 +75,8 @@ void ImprimePessoa(tPessoa *pessoa) {
         } else {
             printf("MAE: %s\n", pessoa->mae->nome);
         }
+
+        printf("\n");
     }
 }
 
@@ -87,17 +87,20 @@ void ImprimePessoa(tPessoa *pessoa) {
  */
 void AssociaFamiliasGruposPessoas(tPessoa *pessoas) {
 
-    int idx_filho, idx_mae, idx_pai;
+    int i, qnt, idx_filho, idx_mae, idx_pai;
 
-    if(scanf(" mae: %d, pai: %d, filho: %d", &idx_mae, &idx_pai, &idx_filho) != 3) {
-        printf("nao conseguiu ler\n");
+    scanf(" %d", &qnt);
+
+    for (i = 0; i < qnt; i++) {
+        scanf(" mae: %d, pai: %d, filho: %d", &idx_mae, &idx_pai, &idx_filho);
+
+        if (idx_pai != -1) {
+            pessoas[idx_filho].pai = &pessoas[idx_pai];
+        }
+        
+        if (idx_mae != -1) {
+            pessoas[idx_filho].mae = &pessoas[idx_mae];
+        }
     }
 
-    if (idx_pai != -1) {
-        pessoas[idx_filho].pai = &pessoas[idx_pai];
-    }
-    
-    if (idx_mae != -1) {
-        pessoas[idx_filho].mae = &pessoas[idx_mae];
-    }
 }

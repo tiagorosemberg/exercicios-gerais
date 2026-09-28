@@ -3,7 +3,7 @@
 
 int main () {
 
-    int n_pessoas, n_associacoes;
+    int n_pessoas;
     int i;
 
     scanf("%d", &n_pessoas);
@@ -16,16 +16,9 @@ int main () {
         LePessoa(&pessoas[i]);
     }
 
-    scanf(" %d", &n_associacoes);
+    AssociaFamiliasGruposPessoas(pessoas);
 
-
-    for (i = 0; i < n_associacoes; i++) {
-
-        AssociaFamiliasGruposPessoas(pessoas);
-
-    }
-
-    for (i = 0; i < n_associacoes; i++) {
+    for (i = 0; i < n_pessoas; i++) {
 
         ImprimePessoa(&pessoas[i]);
 
