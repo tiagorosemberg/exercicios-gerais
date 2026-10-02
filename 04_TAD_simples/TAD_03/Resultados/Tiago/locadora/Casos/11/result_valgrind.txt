@@ -1,0 +1,15 @@
+==225272== Memcheck, a memory error detector
+==225272== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==225272== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==225272== Command: Resultados/Tiago/locadora/prog Resultados/Tiago/locadora/Casos/11
+==225272== Parent PID: 225271
+==225272== 
+==225272== 
+==225272== HEAP SUMMARY:
+==225272==     in use at exit: 0 bytes in 0 blocks
+==225272==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==225272== 
+==225272== All heap blocks were freed -- no leaks are possible
+==225272== 
+==225272== For lists of detected and suppressed errors, rerun with: -s
+==225272== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

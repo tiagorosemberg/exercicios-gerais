@@ -1,0 +1,24 @@
+Filme cadastrado 1 - A Sociedade Do Anel
+
+Filme 1 - A Sociedade Do Anel nao disponivel no estoque. Volte mais tarde.
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+
+Filme cadastrado 15 - Shrek
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 1
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+
+Filme 15 - Shrek nao disponivel no estoque. Volte mais tarde.
+
+Filme 15 - Shrek Devolvido!
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+15 - Shrek Fitas em estoque: 1
+
+Lucro total R$9

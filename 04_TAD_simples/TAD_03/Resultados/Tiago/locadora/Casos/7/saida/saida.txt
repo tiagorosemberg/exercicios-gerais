@@ -1,0 +1,13 @@
+Filme cadastrado 1 - A Sociedade Do Anel
+
+Filme 1 - A Sociedade Do Anel nao disponivel no estoque. Volte mais tarde.
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+
+Lucro total R$5
