@@ -1,0 +1,25 @@
+Filme cadastrado 2 - Shrek
+Filme cadastrado 3 - A Mumia
+Filme cadastrado 1 - Matrix
+Filme cadastrado 6 - A Sociedade Do Anel
+Filme cadastrado 1 - A Viagem
+
+Filme 1 - Matrix Devolvido!
+Filme 1 - A Viagem Devolvido!
+
+Filme 2 - Shrek nao disponivel no estoque. Volte mais tarde.
+Filme 5 nao cadastrado.
+Total de filmes alugados: 2 com custo de R$7
+
+Filme 2 - Shrek nao disponivel no estoque. Volte mais tarde.
+
+Filme 2 - Shrek Devolvido!
+
+~ESTOQUE~
+3 - A Mumia Fitas em estoque: 3
+6 - A Sociedade Do Anel Fitas em estoque: 1
+1 - A Viagem Fitas em estoque: 1
+1 - Matrix Fitas em estoque: 3
+2 - Shrek Fitas em estoque: 0
+
+Lucro total R$11

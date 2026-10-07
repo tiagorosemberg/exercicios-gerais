@@ -1,0 +1,4 @@
+locadora.c: In function ‘lerDevolucaoLocadora’:
+locadora.c:176:10: warning: unused variable ‘c’ [-Wunused-variable]
+  176 |     char c;
+      |          ^
