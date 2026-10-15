@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 3 de 5
+Teste main
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste main: 
+Teste completo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste completo: 
+Teste data
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste data: 
+Teste paciente
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste paciente: 
+Teste lesao
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste lesao: 
+Nota de Tiago: 0+()+()+()+()+()
+Nota de Tiago: 
