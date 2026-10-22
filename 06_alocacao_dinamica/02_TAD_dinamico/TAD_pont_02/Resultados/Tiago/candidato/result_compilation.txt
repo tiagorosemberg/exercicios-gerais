@@ -1,0 +1,13 @@
+candidato.c: In function ‘LeCandidato’:
+candidato.c:46:5: warning: ‘nome’ is used uninitialized [-Wuninitialized]
+   46 |     scanf(" %[^,], %[^,], %c, %d", nome, partido, &cargo, &id);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+candidato.c:43:11: note: ‘nome’ was declared here
+   43 |     char *nome, *partido, cargo;
+      |           ^~~~
+candidato.c:46:5: warning: ‘partido’ is used uninitialized [-Wuninitialized]
+   46 |     scanf(" %[^,], %[^,], %c, %d", nome, partido, &cargo, &id);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+candidato.c:43:18: note: ‘partido’ was declared here
+   43 |     char *nome, *partido, cargo;
+      |                  ^~~~~~~

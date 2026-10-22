@@ -1,0 +1,45 @@
+==80888== Memcheck, a memory error detector
+==80888== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==80888== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==80888== Command: Resultados/Tiago/candidato/prog Resultados/Tiago/candidato/Casos/5
+==80888== Parent PID: 80887
+==80888== 
+==80888== Conditional jump or move depends on uninitialised value(s)
+==80888==    at 0x48D14BF: __vfscanf_internal (vfscanf-internal.c:2552)
+==80888==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==80888==    by 0x1092A1: LeCandidato (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x1095CB: InicializaEleicao (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x10A027: main (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888== 
+==80888== Use of uninitialised value of size 8
+==80888==    at 0x48D0719: __vfscanf_internal (vfscanf-internal.c:2976)
+==80888==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==80888==    by 0x1092A1: LeCandidato (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x1095CB: InicializaEleicao (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x10A027: main (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888== 
+==80888== 
+==80888== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==80888==  Bad permissions for mapped region at address 0x1091E4
+==80888==    at 0x48D0719: __vfscanf_internal (vfscanf-internal.c:2976)
+==80888==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==80888==    by 0x1092A1: LeCandidato (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x1095CB: InicializaEleicao (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888==    by 0x10A027: main (in /workspaces/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/Tiago/candidato/prog)
+==80888== 
+==80888== HEAP SUMMARY:
+==80888==     in use at exit: 4,288 bytes in 5 blocks
+==80888==   total heap usage: 5 allocs, 0 frees, 4,288 bytes allocated
+==80888== 
+==80888== LEAK SUMMARY:
+==80888==    definitely lost: 0 bytes in 0 blocks
+==80888==    indirectly lost: 0 bytes in 0 blocks
+==80888==      possibly lost: 0 bytes in 0 blocks
+==80888==    still reachable: 4,288 bytes in 5 blocks
+==80888==         suppressed: 0 bytes in 0 blocks
+==80888== Reachable blocks (those to which a pointer was found) are not shown.
+==80888== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==80888== 
+==80888== Use --track-origins=yes to see where uninitialised values come from
+==80888== For lists of detected and suppressed errors, rerun with: -s
+==80888== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

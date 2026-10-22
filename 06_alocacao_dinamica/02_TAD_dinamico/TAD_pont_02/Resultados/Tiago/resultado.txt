@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 1 de 5
+Teste main
+  - Resultados corretos: 0 de 10
+  - Valgrinds corretos: 0 de 10
+Nota de Tiago para o teste main: 
+Teste completo
+  - Resultados corretos: 0 de 10
+  - Valgrinds corretos: 0 de 10
+Nota de Tiago para o teste completo: 
+Teste eleicao
+  - Resultados corretos: 0 de 10
+  - Valgrinds corretos: 0 de 10
+Nota de Tiago para o teste eleicao: 
+Teste candidato
+  - Resultados corretos: 0 de 10
+  - Valgrinds corretos: 0 de 10
+Nota de Tiago para o teste candidato: 
+Teste eleitor
+  - Resultados corretos: 0 de 10
+  - Valgrinds corretos: 0 de 10
+Nota de Tiago para o teste eleitor: 
+Nota de Tiago: 0+()+()+()+()+()
+Nota de Tiago: 

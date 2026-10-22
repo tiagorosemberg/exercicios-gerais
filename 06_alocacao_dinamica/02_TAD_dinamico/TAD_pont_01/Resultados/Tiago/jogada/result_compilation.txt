@@ -1,0 +1,4 @@
+jogada.c: In function ‘CriaJogada’:
+jogada.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+   19 | }
+      | ^

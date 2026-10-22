@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 9 de 9
+Pastas Compiladas Corretamente: 6 de 6 
+Pastas Linkadas Corretamente: 1 de 6
+Teste main
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste main: 
+Teste completo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste completo: 
+Teste jogada
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste jogada: 
+Teste jogador
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste jogador: 
+Teste tabuleiro
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste tabuleiro: 
+Teste jogo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Tiago para o teste jogo: 
+Nota de Tiago: 0+()+()+()+()+()+()
+Nota de Tiago: 

@@ -1,0 +1,58 @@
+==33799== Memcheck, a memory error detector
+==33799== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==33799== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==33799== Command: Resultados/Tiago/filme/prog Resultados/Tiago/filme/Casos/5
+==33799== Parent PID: 33798
+==33799== 
+==33799== Conditional jump or move depends on uninitialised value(s)
+==33799==    at 0x48D14BF: __vfscanf_internal (vfscanf-internal.c:2552)
+==33799==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==33799==    by 0x10934E: LeFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x10975D: LerCadastroLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x109F8E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799== 
+==33799== Use of uninitialised value of size 8
+==33799==    at 0x48D0719: __vfscanf_internal (vfscanf-internal.c:2976)
+==33799==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==33799==    by 0x10934E: LeFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x10975D: LerCadastroLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x109F8E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799== 
+==33799== Invalid write of size 1
+==33799==    at 0x48D0719: __vfscanf_internal (vfscanf-internal.c:2976)
+==33799==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==33799==    by 0x10934E: LeFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x10975D: LerCadastroLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x109F8E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==33799== 
+==33799== 
+==33799== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==33799==  Access not within mapped region at address 0x10
+==33799==    at 0x48D0719: __vfscanf_internal (vfscanf-internal.c:2976)
+==33799==    by 0x48C0EC5: __isoc99_scanf (isoc99_scanf.c:30)
+==33799==    by 0x10934E: LeFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x10975D: LerCadastroLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==    by 0x109F8E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/filme/prog)
+==33799==  If you believe this happened as a result of a stack
+==33799==  overflow in your program's main thread (unlikely but
+==33799==  possible), you can try to increase the size of the
+==33799==  main thread stack using the --main-stacksize= flag.
+==33799==  The main thread stack size used in this run was 8388608.
+==33799== 
+==33799== HEAP SUMMARY:
+==33799==     in use at exit: 4,148 bytes in 3 blocks
+==33799==   total heap usage: 3 allocs, 0 frees, 4,148 bytes allocated
+==33799== 
+==33799== LEAK SUMMARY:
+==33799==    definitely lost: 0 bytes in 0 blocks
+==33799==    indirectly lost: 0 bytes in 0 blocks
+==33799==      possibly lost: 0 bytes in 0 blocks
+==33799==    still reachable: 4,148 bytes in 3 blocks
+==33799==         suppressed: 0 bytes in 0 blocks
+==33799== Reachable blocks (those to which a pointer was found) are not shown.
+==33799== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==33799== 
+==33799== Use --track-origins=yes to see where uninitialised values come from
+==33799== For lists of detected and suppressed errors, rerun with: -s
+==33799== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
