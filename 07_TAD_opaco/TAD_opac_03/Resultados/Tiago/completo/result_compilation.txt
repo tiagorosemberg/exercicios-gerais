@@ -1,4 +1,0 @@
-locadora.c: In function ‘ConsultarEstoqueLocadora’:
-locadora.c:241:12: warning: unused variable ‘total’ [-Wunused-variable]
-  241 |     int i, total = 0;
-      |            ^~~~~

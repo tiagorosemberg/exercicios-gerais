@@ -1,41 +1,15 @@
-==185554== Memcheck, a memory error detector
-==185554== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==185554== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==185554== Command: Resultados/Tiago/locadora/prog Resultados/Tiago/locadora/Casos/18
-==185554== Parent PID: 185553
-==185554== 
-==185554== Invalid read of size 4
-==185554==    at 0x1093D0: ObterValorFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x1098CD: DevolverFilmesLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x1099B1: LerDevolucaoLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x109C7E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==  Address 0x18 is not stack'd, malloc'd or (recently) free'd
-==185554== 
-==185554== 
-==185554== Process terminating with default action of signal 11 (SIGSEGV): dumping core
-==185554==  Access not within mapped region at address 0x18
-==185554==    at 0x1093D0: ObterValorFilme (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x1098CD: DevolverFilmesLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x1099B1: LerDevolucaoLocadora (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==    by 0x109C7E: main (in /workspaces/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Tiago/locadora/prog)
-==185554==  If you believe this happened as a result of a stack
-==185554==  overflow in your program's main thread (unlikely but
-==185554==  possible), you can try to increase the size of the
-==185554==  main thread stack using the --main-stacksize= flag.
-==185554==  The main thread stack size used in this run was 8388608.
-==185554== 
-==185554== HEAP SUMMARY:
-==185554==     in use at exit: 9,036 bytes in 4 blocks
-==185554==   total heap usage: 6 allocs, 2 frees, 9,108 bytes allocated
-==185554== 
-==185554== LEAK SUMMARY:
-==185554==    definitely lost: 0 bytes in 0 blocks
-==185554==    indirectly lost: 0 bytes in 0 blocks
-==185554==      possibly lost: 0 bytes in 0 blocks
-==185554==    still reachable: 9,036 bytes in 4 blocks
-==185554==         suppressed: 0 bytes in 0 blocks
-==185554== Reachable blocks (those to which a pointer was found) are not shown.
-==185554== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==185554== 
-==185554== For lists of detected and suppressed errors, rerun with: -s
-==185554== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==391940== Memcheck, a memory error detector
+==391940== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==391940== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==391940== Command: Resultados/Tiago/locadora/prog Resultados/Tiago/locadora/Casos/18
+==391940== Parent PID: 391939
+==391940== 
+==391940== 
+==391940== HEAP SUMMARY:
+==391940==     in use at exit: 0 bytes in 0 blocks
+==391940==   total heap usage: 8 allocs, 8 frees, 9,180 bytes allocated
+==391940== 
+==391940== All heap blocks were freed -- no leaks are possible
+==391940== 
+==391940== For lists of detected and suppressed errors, rerun with: -s
+==391940== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
