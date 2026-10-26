@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Tiago/utils/main.o: in function `main':
+main.c:(.text+0x2c): undefined reference to `TrocaInteiros'
+collect2: error: ld returned 1 exit status

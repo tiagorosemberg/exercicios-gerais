@@ -1,0 +1,5 @@
+main.c: In function ‘main’:
+main.c:10:14: warning: implicit declaration of function ‘TrocaInterios’; did you mean ‘TrocaInteiros’? [-Wimplicit-function-declaration]
+   10 |         if ( TrocaInterios(&n1, &n2) ){
+      |              ^~~~~~~~~~~~~
+      |              TrocaInteiros

@@ -1,7 +1,1 @@
-ORIGINAL: -50 -50
-TROCADO: -40 -30
-TROCADO: 2 5
-ORIGINAL: 9999 99999
-ORIGINAL: 0 0
-TROCADO: 0 10
-ORIGINAL: 90 8000
+valgrind: Resultados/Tiago/main/prog: No such file or directory

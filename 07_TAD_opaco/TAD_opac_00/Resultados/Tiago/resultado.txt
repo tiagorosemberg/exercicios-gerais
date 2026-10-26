@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste main: 
+Teste completo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste completo: 
+Teste circulo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste circulo: 
+Teste ponto
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Tiago para o teste ponto: 
+Nota de Tiago: 0+()+()+()+()
+Nota de Tiago: 
