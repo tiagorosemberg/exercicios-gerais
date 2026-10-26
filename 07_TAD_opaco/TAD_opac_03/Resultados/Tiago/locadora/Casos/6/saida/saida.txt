@@ -1,1 +1,7 @@
-valgrind: Resultados/Tiago/locadora/prog: No such file or directory
+
+~ESTOQUE~
+1 - Hannibal - Fitas em estoque: 1
+
+
+~ESTOQUE~
+1 - Hannibal - Fitas em estoque: 0

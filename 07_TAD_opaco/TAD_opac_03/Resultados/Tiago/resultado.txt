@@ -1,6 +1,6 @@
 Arquivos Esperados Corretos: 5 de 5
 Pastas Compiladas Corretamente: 4 de 4 
-Pastas Linkadas Corretamente: 1 de 4
+Pastas Linkadas Corretamente: 2 de 4
 Teste main
   - Resultados corretos: 0 de 19
   - Valgrinds corretos: 0 de 19
@@ -11,11 +11,11 @@ Teste completo
 Nota de Tiago para o teste completo: 
 Teste locadora
   - Resultados corretos: 0 de 19
-  - Valgrinds corretos: 0 de 19
+  - Valgrinds corretos: 16 de 19
 Nota de Tiago para o teste locadora: 
 Teste filme
-  - Resultados corretos: 0 de 19
-  - Valgrinds corretos: 0 de 19
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
 Nota de Tiago para o teste filme: 
 Nota de Tiago: 0+()+()+()+()
 Nota de Tiago: 

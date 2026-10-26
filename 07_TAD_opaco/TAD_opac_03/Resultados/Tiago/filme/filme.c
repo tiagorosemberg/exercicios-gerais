@@ -24,10 +24,9 @@ tFilme* CriarFilme() {
 
     if (filme == NULL) {
         printf("alocou errado ai viu");
+        exit(1);
     }
 
-    filme->qtd_em_estoque = 0;
-    filme->valor = 0;
     filme->qtd_alugada = 0;
 
     return filme;
@@ -40,19 +39,16 @@ tFilme* CriarFilme() {
 */
 void LeFilme(tFilme *filme, int codigo) {
 
-    char *nome;
+    char nome[MAX_CARACTERES];
     int valor, qtd_estoque;
 
     scanf("%[^,],%d,%d", nome, &valor, &qtd_estoque);
-
-    filme = CriarFilme();
 
     strcpy(filme->nome, nome);
     filme->valor = valor;
     filme->qtd_em_estoque = qtd_estoque;
     filme->codigo = codigo;
     
-
 }
 
 /**
@@ -124,7 +120,9 @@ int ObterQtdAlugadaFilme (tFilme* filme) {
 */
 int EhMesmoCodigoFilme (tFilme* filme, int codigo) {
 
-    if (filme->codigo == codigo);
+    if (filme->codigo == codigo) {
+        return 1;
+    }
 
     return 0;
 }

@@ -1,1 +1,30 @@
-valgrind: Resultados/Tiago/locadora/prog: No such file or directory
+
+~ESTOQUE~
+21 - The Last Castle - Fitas em estoque: 5
+
+
+
+
+
+~ESTOQUE~
+21 - The Last Castle - Fitas em estoque: 4
+
+
+~ESTOQUE~
+21 - The Last Castle - Fitas em estoque: 4
+26 - Vanilla Sky - Fitas em estoque: 5
+
+
+
+
+
+
+
+
+
+
+
+~ESTOQUE~
+21 - The Last Castle - Fitas em estoque: 5
+26 - Vanilla Sky - Fitas em estoque: 4
+Lucro total R$10

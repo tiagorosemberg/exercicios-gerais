@@ -1,7 +1,4 @@
-filme.c: In function ‘LeFilme’:
-filme.c:46:5: warning: ‘nome’ is used uninitialized [-Wuninitialized]
-   46 |     scanf("%[^,],%d,%d", nome, &valor, &qtd_estoque);
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-filme.c:43:11: note: ‘nome’ was declared here
-   43 |     char *nome;
-      |           ^~~~
+locadora.c: In function ‘ConsultarEstoqueLocadora’:
+locadora.c:241:12: warning: unused variable ‘total’ [-Wunused-variable]
+  241 |     int i, total = 0;
+      |            ^~~~~

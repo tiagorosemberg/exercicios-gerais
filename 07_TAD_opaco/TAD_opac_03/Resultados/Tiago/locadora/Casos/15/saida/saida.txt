@@ -1,1 +1,9 @@
-valgrind: Resultados/Tiago/locadora/prog: No such file or directory
+
+
+
+Nao da pra alugar
+
+
+~ESTOQUE~
+2 - Shrek - Fitas em estoque: 1
+Lucro total R$4
