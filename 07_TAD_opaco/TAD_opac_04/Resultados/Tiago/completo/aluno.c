@@ -87,7 +87,7 @@ int ComparaMatricula(tAluno* aluno1, tAluno* aluno2) {
  */
 int CalculaMediaAluno(tAluno* aluno) {
 
-    return (float)(aluno->nota1+aluno->nota2+aluno->nota3)/3;
+    return (aluno->nota1+aluno->nota2+aluno->nota3)/3;
 }
 
 /**
