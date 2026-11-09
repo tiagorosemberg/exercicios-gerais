@@ -1,0 +1,9 @@
+data.c: In function ‘DataParaDias’:
+data.c:266:37: warning: passing argument 1 of ‘VerificaBissexto’ makes pointer from integer without a cast [-Wint-conversion]
+  266 |     if (mes > 2 && VerificaBissexto(ano)) {
+      |                                     ^~~
+      |                                     |
+      |                                     int
+data.c:146:29: note: expected ‘tData *’ {aka ‘struct Data *’} but argument is of type ‘int’
+  146 | int VerificaBissexto(tData* data) {
+      |                      ~~~~~~~^~~~

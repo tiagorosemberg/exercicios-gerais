@@ -1,0 +1,15 @@
+==54760== Memcheck, a memory error detector
+==54760== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==54760== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==54760== Command: Resultados/Tiago/main/prog Resultados/Tiago/main/Casos/3
+==54760== Parent PID: 54759
+==54760== 
+==54760== 
+==54760== HEAP SUMMARY:
+==54760==     in use at exit: 0 bytes in 0 blocks
+==54760==   total heap usage: 4 allocs, 4 frees, 8,228 bytes allocated
+==54760== 
+==54760== All heap blocks were freed -- no leaks are possible
+==54760== 
+==54760== For lists of detected and suppressed errors, rerun with: -s
+==54760== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

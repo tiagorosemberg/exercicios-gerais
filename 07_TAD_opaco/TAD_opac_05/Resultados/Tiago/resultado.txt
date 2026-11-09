@@ -4,22 +4,22 @@ Pastas Linkadas Corretamente: 5 de 5
 Teste main
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Tiago para o teste main: 2.00
+Nota de Tiago para o teste main: 
 Teste completo
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Tiago para o teste completo: 2.00
+Nota de Tiago para o teste completo: 
 Teste usuario
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Tiago para o teste usuario: 2.00
+Nota de Tiago para o teste usuario: 
 Teste conta
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Tiago para o teste conta: 2.00
+Nota de Tiago para o teste conta: 
 Teste banco
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Tiago para o teste banco: 2.00
-Nota de Tiago: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
-Nota de Tiago: 10.00
+Nota de Tiago para o teste banco: 
+Nota de Tiago: 0+()+()+()+()+()
+Nota de Tiago: 

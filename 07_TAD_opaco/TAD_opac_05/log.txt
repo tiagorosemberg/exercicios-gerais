@@ -102,86 +102,86 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Arquivo de output gerado: Resultados/Tiago/main/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/Tiago/main/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/Tiago/main/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta main (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta main (máximo 2.00) - de - % de 2.00: .
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Tiago/completo/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Tiago/completo/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Tiago/completo/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta completo (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta completo (máximo 2.00) - de - % de 2.00: .
  -----
  - Pasta usuario / Caso 1:
  - Arquivo de output gerado: Resultados/Tiago/usuario/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta usuario / Caso 2:
  - Arquivo de output gerado: Resultados/Tiago/usuario/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta usuario / Caso 3:
  - Arquivo de output gerado: Resultados/Tiago/usuario/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta usuario (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta usuario (máximo 2.00) - de - % de 2.00: .
  -----
  - Pasta conta / Caso 1:
  - Arquivo de output gerado: Resultados/Tiago/conta/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta conta / Caso 2:
  - Arquivo de output gerado: Resultados/Tiago/conta/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta conta / Caso 3:
  - Arquivo de output gerado: Resultados/Tiago/conta/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta conta (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta conta (máximo 2.00) - de - % de 2.00: .
  -----
  - Pasta banco / Caso 1:
  - Arquivo de output gerado: Resultados/Tiago/banco/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta banco / Caso 2:
  - Arquivo de output gerado: Resultados/Tiago/banco/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta banco / Caso 3:
  - Arquivo de output gerado: Resultados/Tiago/banco/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta banco (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta banco (máximo 2.00) - de - % de 2.00: .
  -----
 
 #######################################
@@ -196,25 +196,25 @@ Aluno: Tiago
  - Teste main
  - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de Tiago para o teste main: 2.00
+ - Nota de Tiago para o teste main: 
  - Teste completo
  - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de Tiago para o teste completo: 2.00
+ - Nota de Tiago para o teste completo: 
  - Teste usuario
  - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de Tiago para o teste usuario: 2.00
+ - Nota de Tiago para o teste usuario: 
  - Teste conta
  - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de Tiago para o teste conta: 2.00
+ - Nota de Tiago para o teste conta: 
  - Teste banco
  - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de Tiago para o teste banco: 2.00
- - Nota de Tiago: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
- - Nota de Tiago: 10.00
+ - Nota de Tiago para o teste banco: 
+ - Nota de Tiago: 0+()+()+()+()+()
+ - Nota de Tiago: 
 
 ----------------------------------------------------------------------------
 
