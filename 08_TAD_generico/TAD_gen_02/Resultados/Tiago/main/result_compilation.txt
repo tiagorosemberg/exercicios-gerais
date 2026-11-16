@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:16:12: warning: ‘op’ is used uninitialized [-Wuninitialized]
+   16 |         if (op == 1) {
+      |            ^
+main.c:9:9: note: ‘op’ was declared here
+    9 |     int op, tipo, numElem, idx;
+      |         ^~

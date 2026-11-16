@@ -1,0 +1,29 @@
+exame.c:14:1: warning: useless storage class specifier in empty declaration
+   14 | };
+      | ^
+main.c: In function ‘main’:
+main.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   21 |         scanf("%s\n", &opcao);
+      |                ~^     ~~~~~~
+      |                 |     |
+      |                 |     char (*)[100]
+      |                 char *
+receita.c: In function ‘criaReceita’:
+receita.c:29:18: warning: implicit declaration of function ‘calloc’ [-Wimplicit-function-declaration]
+   29 |     Receita *r = calloc(1, sizeof(Receita));
+      |                  ^~~~~~
+receita.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘calloc’
+    3 | #include "receita.h"
+  +++ |+#include <stdlib.h>
+    4 | 
+receita.c:29:18: warning: incompatible implicit declaration of built-in function ‘calloc’ [-Wbuiltin-declaration-mismatch]
+   29 |     Receita *r = calloc(1, sizeof(Receita));
+      |                  ^~~~~~
+receita.c:29:18: note: include ‘<stdlib.h>’ or provide a declaration of ‘calloc’
+receita.c: In function ‘desalocaReceita’:
+receita.c:103:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+  103 |     free(r);
+      |     ^~~~
+receita.c:103:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+receita.c:103:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+receita.c:103:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

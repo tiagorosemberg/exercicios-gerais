@@ -1,0 +1,22 @@
+==29747== Memcheck, a memory error detector
+==29747== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==29747== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==29747== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/2
+==29747== Parent PID: 29746
+==29747== 
+==29747== Conditional jump or move depends on uninitialised value(s)
+==29747==    at 0x1093FE: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29747== 
+==29747== Conditional jump or move depends on uninitialised value(s)
+==29747==    at 0x10944B: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29747== 
+==29747== Conditional jump or move depends on uninitialised value(s)
+==29747==    at 0x109482: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29747== 
+==29747== 
+==29747== More than 10000000 total errors detected.  I'm not reporting any more.
+==29747== Final error counts will be inaccurate.  Go fix your program!
+==29747== Rerun with --error-limit=no to disable this cutoff.  Note
+==29747== that errors may occur in your program without prior warning from
+==29747== Valgrind, because errors are no longer being displayed.
+==29747== 

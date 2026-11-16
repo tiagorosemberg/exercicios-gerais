@@ -1,0 +1,10 @@
+exame.c:14:1: warning: useless storage class specifier in empty declaration
+   14 | };
+      | ^
+main.c: In function ‘main’:
+main.c:21:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   21 |         scanf("%s\n", &opcao);
+      |                ~^     ~~~~~~
+      |                 |     |
+      |                 |     char (*)[100]
+      |                 char *

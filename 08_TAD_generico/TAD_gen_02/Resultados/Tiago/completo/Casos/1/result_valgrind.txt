@@ -1,0 +1,22 @@
+==29531== Memcheck, a memory error detector
+==29531== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==29531== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==29531== Command: Resultados/Tiago/completo/prog Resultados/Tiago/completo/Casos/1
+==29531== Parent PID: 29530
+==29531== 
+==29531== Conditional jump or move depends on uninitialised value(s)
+==29531==    at 0x1093FE: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29531== 
+==29531== Conditional jump or move depends on uninitialised value(s)
+==29531==    at 0x10944B: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29531== 
+==29531== Conditional jump or move depends on uninitialised value(s)
+==29531==    at 0x109482: main (in /workspaces/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Tiago/completo/prog)
+==29531== 
+==29531== 
+==29531== More than 10000000 total errors detected.  I'm not reporting any more.
+==29531== Final error counts will be inaccurate.  Go fix your program!
+==29531== Rerun with --error-limit=no to disable this cutoff.  Note
+==29531== that errors may occur in your program without prior warning from
+==29531== Valgrind, because errors are no longer being displayed.
+==29531== 
