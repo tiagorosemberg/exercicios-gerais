@@ -1,0 +1,15 @@
+==76130== Memcheck, a memory error detector
+==76130== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==76130== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==76130== Command: Resultados/Tiago/agencia/prog Resultados/Tiago/agencia/Casos/1
+==76130== Parent PID: 76129
+==76130== 
+==76130== 
+==76130== HEAP SUMMARY:
+==76130==     in use at exit: 0 bytes in 0 blocks
+==76130==   total heap usage: 20 allocs, 20 frees, 9,216 bytes allocated
+==76130== 
+==76130== All heap blocks were freed -- no leaks are possible
+==76130== 
+==76130== For lists of detected and suppressed errors, rerun with: -s
+==76130== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

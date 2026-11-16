@@ -1,0 +1,4 @@
+agencia.c: In function ‘DestroiAgencia’:
+agencia.c:39:9: warning: unused variable ‘i’ [-Wunused-variable]
+   39 |     int i;
+      |         ^
