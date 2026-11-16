@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 5 de 5
+Teste main
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Tiago para o teste main: 
+Teste completo
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Tiago para o teste completo: 
+Teste aluno
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Tiago para o teste aluno: 
+Teste vector
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Tiago para o teste vector: 
+Teste relatorio
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Tiago para o teste relatorio: 
+Nota de Tiago: 0+()+()+()+()+()
+Nota de Tiago: 
